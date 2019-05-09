@@ -1,0 +1,5 @@
+valor = int(input())
+horas = int(valor/60/60)
+minutos = int((valor / 60) - (horas * 60))
+segundos = int(valor - ((horas*60*60) + (minutos * 60)))
+print(str(horas)+':'+str(minutos)+':'+str(segundos))
